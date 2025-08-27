@@ -4,3 +4,7 @@ from django.db import models
 class User(AbstractUser):
     avatar = models.ImageField(upload_to="avatars/", null=True, blank=True)
     status = models.CharField(max_length=255, blank=True, default="")
+
+
+def __str__(self):
+    return self.username
