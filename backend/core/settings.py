@@ -169,3 +169,9 @@ SWAGGER_SETTINGS = {
         }
     }
 }
+
+DJOSER = {
+    "USER_ID_FIELD" : "id",
+    "HIDE_USERS" : True,
+    "SERIALIZERS": {},
+}
