@@ -2525,3 +2525,17 @@ Not Found: /
 "GET / HTTP/1.1" 404 3318
 "GET /swagger/ HTTP/1.1" 200 2211
 "GET /swagger/?format=openapi HTTP/1.1" 200 8039
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 3318
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3369
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+"GET /swagger/?format=openapi HTTP/1.1" 200 8039
